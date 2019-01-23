@@ -11,7 +11,7 @@ This project is composed of:
 
 The Swagger API for this example can be found [here](https://petstore.swagger.io/v2/swagger.json).
 
-## What we are doing
+## Example
 
 We wants to call a REST endping in the Pets API with the following structue:
 ```http://petstore.swagger.io/v2/pet/findByStatus?status=available```
