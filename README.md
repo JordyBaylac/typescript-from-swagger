@@ -14,11 +14,15 @@ The Swagger API for this example can be found [here](https://petstore.swagger.io
 ## Example
 
 We wants to call a REST endping in the Pets API with the following structue:
-```http://petstore.swagger.io/v2/pet/findByStatus?status=available```
+```
+http://petstore.swagger.io/v2/pet/findByStatus?status=available
+```
 
 The fact is that we can have type-safety and intellisense with the help of TypeScript.
 We ended up having this code:
-```const pets = await petStoreApi.findPetsByStatus([Status.Available]);```
+```javascript
+const pets = await petStoreApi.findPetsByStatus([Status.Available]);
+```
 
 ## Autogenerating TypeScript from Swagger API
 
