@@ -1,11 +1,11 @@
-## Koa API + Auto-generated Swagger client (TS)
+## Auto-generated TypeScript Swagger client (TS)
 
-Koa API communicating with an external Pets API using a generated TypeScript Swagger client
+We will create a basic API using the Koa framework. This API will then communicate with an external Pets API using an auto-generated TypeScript Client. The Client is based on a external Swagger API definition
 
 This project is composed of:
 
-- **src/app**: the NodeJS API using Koa framework. It exposes only one method (*find-pets*)
-- **src/services**: an auto-generated TypeScript Swagger Client based on a swagger API definition. 
+- **src/app**: the NodeJS API using Koa. It exposes only one method (*find-pets*)
+- **src/services**: interface and implementation of the auto-generated TypeScript Client.
 
 ## Swagger Pets API
 
